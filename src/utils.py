@@ -43,3 +43,14 @@ if __name__ == "__main__":
     radius = 5
     area = calculate_circle_area(radius)
     print(f"半径为 {radius} 的圆面积: {area:.2f}")
+
+# 故意引入的错误函数 - 用于回滚练习
+def problematic_function():
+    # 这里有语法错误 - 字符串没有正确闭合
+    print("这是一个故意引入的错误
+
+    # 这里有逻辑错误 - 可能除零
+    def bad_division(a, b):
+        return a / b  # 当 b=0 时会出错
+
+    return "错误代码"
